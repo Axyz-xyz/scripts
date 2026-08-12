@@ -1127,7 +1127,7 @@ task.spawn(function()
 	scanPlayers()
 	if AZURE.seq == mySeq then notify("Project Azure | Granny Multiplayer loaded.") end
 	if AZURE.seq == mySeq then
-		pcall(function() Library:Notify({ Title = "Azure", Description = "Press Right Shift to toggle the GUI", Time = 5 }) end)
+		pcall(function() Library:Notify({ Title = "Azure", Description = "Press Right CTRL to toggle the GUI", Time = 5 }) end)
 	end
 	AZURE.started = true
 end)
