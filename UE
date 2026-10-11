@@ -45,7 +45,7 @@
 
 local arguments = table.pack(...)
 local sharedEnv = getgenv and getgenv() or _G
-local previous = rawget(sharedEnv, 'Unnamed Enhancements - Cracked')
+local previous = rawget(sharedEnv, 'Unnamed Enhancements - discord.gg/enhancements')
 
 if type(previous) == 'table' and (previous.status == 'starting' or previous.status == 'entry_returned') then
     return previous
@@ -215,7 +215,7 @@ local function runApplication()
     return control
 end
 
-print[[￬ﾝﾴ ￬ﾊﾤ￭ﾁﾬ￫ﾦﾽ￭ﾊﾸ￫ﾊﾔ ￫ﾬﾴ￫ﾣﾌ￫ﾡﾜ ￬ﾠﾜ￪ﾳﾵ￫ﾐﾩ￫ﾋﾈ￫ﾋﾤ
+print[[이 스크립트는 무료로 제공됩니다
 
 discord.gg/discord.gg/vKXWdGT8pc]]
 
